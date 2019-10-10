@@ -1,0 +1,9 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-prettier"],
+  "rules": {
+    "selector-nested-pattern": "^&",
+    "indentation": 4,
+    "no-descending-specificity": null,
+    "declaration-empty-line-before": null
+  }
+}

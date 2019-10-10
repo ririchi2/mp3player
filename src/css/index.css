@@ -1,0 +1,66 @@
+body {
+    background-color: cyan;
+}
+.player {
+    background-color: white;
+    margin: auto;
+    width: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    padding-top: 15px;
+    border-radius: 50%;
+}
+.playerHead {
+    display: flex;
+    flex-direction: row;
+    background-image: url(http://www.upsocl.com/wp-content/uploads/2019/05/Portada-43.jpg);
+    background-size: cover;
+    padding-bottom: 15px;
+}
+.playerHeadImg {
+    width: 200px;
+}
+a {
+    border: 1px solid darkturquoise;
+    border-radius: 5px;
+    background-color: darkturquoise;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    text-shadow: 1px 1px 1px black;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+}
+p {
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+    background: rgba(0, 0, 0, 0.01);
+    letter-spacing: 1px;
+}
+p + p {
+    font-size: 0.6em;
+    letter-spacing: 0.2px;
+}
+button {
+    background-color: transparent;
+    border: 0px solid white;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.playerBar {
+    height: 5px;
+    background-image: linear-gradient(to right, red, white);
+}
